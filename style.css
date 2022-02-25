@@ -53,3 +53,48 @@ a{
 	z-index: -1;
 	background-color: rgba(21, 20, 51, 0.8);
 }
+section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.card-effect{
+	box-shadow: var(--box-shadow);
+	background-color: var(--white);
+	padding: 25px;
+	transition: all 0.35s ease;
+
+}
+.card-effect:hover{
+	box-shadow: none;
+	transform: translateY(5px);
+}
+
+.team-member img{
+	height: 175px;
+	width: 175px;
+	border-radius: 100px;
+}
+.social-icon{
+	display: flex;
+	justify-content: center;
+}
+.social-icon a{
+	width: 34px;
+	height: 34px;
+	background-color: var(--primary);
+	border-radius: 2px solid var(--primary);
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+	display: flex;
+	margin-left: 5px;
+	transition: all 0.4s ease;
+	border: 2px solid var(--primary);
+}
+.social-icon a:hover{
+	color: var(--primary);
+	background-color: transparent;
+	border-color: var(--primary);
+}
